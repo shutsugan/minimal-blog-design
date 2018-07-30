@@ -1,1 +1,8 @@
-.Post {}
+.Post {
+    position: absolute;
+    width: 44%;
+    height: auto;
+    margin-bottom: 120px;
+}
+
+.Post__poster {}

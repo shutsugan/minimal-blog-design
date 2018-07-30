@@ -1,14 +1,15 @@
 .PostInfo {
-    position: absolute;
 }
 
 .PostInfo--banner {
+    position: absolute;
     bottom: 60px;
     left: 60px;
     color: #FFF
 }
 
 .PostInfo--card {
+    margin-top: 16px;
     bottom: 0px;
     left: 0px;
     color: #333;
@@ -19,17 +20,26 @@
     font-weight: bold;
 }
 
+.PostInfo--banner .PostInfo__title {
+    width: 70%;
+}
+
 .PostInfo__title {
     font-weight: normal;
     letter-spacing: 1px;
     word-wrap: break-word;
     line-height: 30px;
-    width: 70%;
+    width: 100%;
+}
+
+.PostInfo--banner .PostInfo__more {
+    border-bottom: solid 1.5px #FFF;
 }
 
 .PostInfo__more {
     font-size: .655em;
     font-weight: bold;
     color: inherit;
-    border-bottom: solid 1.5px #FFF;
+    border-bottom: solid 1.5px #333;
+    padding-bottom: 4px
 }

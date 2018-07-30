@@ -5,7 +5,6 @@ import '../css/Banner.css';
 
 class Banner extends Component {
     render() {
-        console.log(this.props);
         return(
             <div className="Banner">
                 <PostInfo 

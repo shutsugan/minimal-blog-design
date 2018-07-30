@@ -4,5 +4,6 @@
     height: 400px;
     position: sticky;
     z-index: 0;
-    padding: 0 30px
+    padding: 0 30px;
+    margin-bottom: 120px;
 }
