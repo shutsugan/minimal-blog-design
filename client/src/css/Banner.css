@@ -1,0 +1,8 @@
+.Banner {
+    background: center / cover no-repeat url(https://images.pexels.com/photos/17840/pexels-photo.jpg?cs=srgb&dl=adult-barbell-body-17840.jpg&fm=jpg);
+    width: 100%;
+    height: 400px;
+    position: sticky;
+    z-index: 0;
+    padding: 0 30px
+}

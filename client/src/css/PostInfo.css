@@ -1,0 +1,35 @@
+.PostInfo {
+    position: absolute;
+}
+
+.PostInfo--banner {
+    bottom: 60px;
+    left: 60px;
+    color: #FFF
+}
+
+.PostInfo--card {
+    bottom: 0px;
+    left: 0px;
+    color: #333;
+}
+
+.PostInfo__auther-date {
+    font-size: .65em;
+    font-weight: bold;
+}
+
+.PostInfo__title {
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 30px;
+    width: 70%;
+}
+
+.PostInfo__more {
+    font-size: .655em;
+    font-weight: bold;
+    color: inherit;
+    border-bottom: solid 1.5px #FFF;
+}
