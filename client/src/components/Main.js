@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Banner from './Banner';
 import PostsList from './PostsList';
+import Subscription from './Subscription';
 
 import '../css/Main.css';
 
@@ -14,7 +15,7 @@ class Main extends Component {
             {
                 id: 1,
                 author: 'Muhammad Tajjiou',
-                title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
+                title: 'sunt aut facere repellat provident occaecati excepturi',
                 body: 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto',
                 poster: 'https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=abs-adult-athlete-1229356.jpg&fm=jpg',
                 date: '01.09.2018'
@@ -22,7 +23,7 @@ class Main extends Component {
             {
                 id: 2,
                 author: 'Muhammad Tajjiou',
-                title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
+                title: 'facere repellat provident occaecati excepturi optio reprehenderit',
                 body: 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla',
                 poster: 'https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?cs=srgb&dl=barbell-black-and-white-black-and-white-791763.jpg&fm=jpg',
                 date: '21.11.2018'
@@ -38,7 +39,7 @@ class Main extends Component {
             {
                 id: 4,
                 author: 'Oussama Tajjiou',
-                title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
+                title: 'sunt aut facere repellat provident occaecati',
                 body: 'ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit',
                 poster: 'https://images.pexels.com/photos/896058/pexels-photo-896058.jpeg?cs=srgb&dl=barbell-biceps-black-and-white-896058.jpg&fm=jpg',
                 date: '14.07.2018'
@@ -62,6 +63,7 @@ class Main extends Component {
             <div className="Main">
                 <Banner post={banner_post} />
                 <PostsList posts={this.state.posts} />
+                <Subscription />
             </div>
         );
     }

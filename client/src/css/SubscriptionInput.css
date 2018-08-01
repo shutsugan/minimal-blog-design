@@ -1,0 +1,30 @@
+.SubscriptionInput {}
+
+.SubscriptionInput__input {
+  border: none;
+  border-radius: 3px 0 0 3px;
+  width: 30%;
+  height: 40px;
+  padding: 16px;
+  color: #333;
+  background: #FFF;
+  font-weight: bold;
+  outline: none;
+}
+
+.SubscriptionInput__button {
+  border: none;
+  border-radius: 0 3px 3px 0;
+  width: 10%;
+  height: 40px;
+  font-weight: bold;
+  color: #757575;
+  background: #FFF;
+  cursor: pointer;
+}
+
+.SubscriptionInput__button:hover {
+  transition: .3s;
+  background: #FAFAFA;
+  color: #333;
+}

@@ -21,11 +21,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Head 
+        <Head
           title={this.state.title}
           onClick={this.onClick}
         />
         <Main />
+        <footer />
       </div>
     );
   }
