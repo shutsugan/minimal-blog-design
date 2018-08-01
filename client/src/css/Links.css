@@ -18,3 +18,8 @@
   color: #757575;
   line-height: 1.7;
 }
+
+.Links a:hover {
+  transition: .3s;
+  color: #333;
+}
