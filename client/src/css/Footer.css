@@ -1,1 +1,38 @@
-.Footer {}
+.Footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  padding: 30px 16px;
+}
+
+.Footer__container{
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Footer__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 690px) {
+  .Footer__container {
+     flex-direction: column;
+  }
+
+  .Footer__links {
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+  }
+}

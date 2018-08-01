@@ -28,3 +28,17 @@
   background: #FAFAFA;
   color: #333;
 }
+
+@media screen and (max-width: 690px) {
+  .Subscription {
+     margin-top: 120px;
+  }
+
+  .SubscriptionInput__input {
+    width: 70%;
+  }
+
+  .SubscriptionInput__button {
+    width: 30%;
+  }
+}

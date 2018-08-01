@@ -8,8 +8,6 @@ const Post = props => {
         top: props.top
     };
 
-    console.log('=>', props.top);
-
     if (props.even) style.left = 0;
     else style.right = 0;
 
@@ -18,7 +16,7 @@ const Post = props => {
             <img className="Post__poster" src={props.post.poster} alt="poster" />
             <PostInfo
                 banner={false}
-                post={props.post} 
+                post={props.post}
             />
         </div>
     );

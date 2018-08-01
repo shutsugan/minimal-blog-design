@@ -7,3 +7,9 @@
     padding: 0 30px;
     margin-bottom: 120px;
 }
+
+@media screen and (max-width: 690px) {
+  .Banner {
+     margin-bottom: 0px;
+  }
+}

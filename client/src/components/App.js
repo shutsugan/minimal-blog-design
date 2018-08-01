@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Head from './Head';
 import Main from './Main';
+import Footer from './Footer';
 
 import '../css/App.css';
 
@@ -26,7 +27,7 @@ class App extends Component {
           onClick={this.onClick}
         />
         <Main />
-        <footer />
+        <Footer />
       </div>
     );
   }

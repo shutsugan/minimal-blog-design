@@ -12,16 +12,9 @@ class PostsList extends  Component {
             //value is even of odd
             const even = index & 1 ? false : true;
 
-            if (index === 0) {
-                console.log('first');
-                top = 0;
-            } else if (!even) {
-                top += 120;
-                console.log('second', top);
-            } else {
-                top += 456;
-                console.log('therd', top);
-            }
+            if (index === 0) top = 0;
+            else if (!even) top += 120;
+            else top += 456;
 
             return (
                 <Post

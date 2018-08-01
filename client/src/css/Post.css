@@ -6,3 +6,12 @@
 }
 
 .Post__poster {}
+
+@media screen and (max-width: 690px) {
+  .Post {
+     top: 120px !important;
+     position: relative !important;
+     width: 90%;
+     margin-bottom: 60px;
+  }
+}

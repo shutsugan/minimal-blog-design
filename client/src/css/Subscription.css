@@ -16,3 +16,16 @@
   width: 70%;
   color: #FFF;
 }
+
+@media screen and (max-width: 690px) {
+  .Subscription {
+     margin-top: 120px;
+  }
+
+  .Subscription__Head {
+    width: 90%;
+    font-size: .8em;
+    line-height: 15px;
+    margin-top: 50px;
+  }
+}

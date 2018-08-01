@@ -14,3 +14,11 @@
     letter-spacing: 40px;
     font-size: 1.3em;
 }
+
+@media screen and (max-width: 690px) {
+  .Head__title {
+    letter-spacing: 20px;
+    font-size: 1em;
+    padding-left: 16px;
+  }
+}

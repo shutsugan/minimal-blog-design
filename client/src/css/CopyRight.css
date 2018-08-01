@@ -1,0 +1,12 @@
+.CopyRight {
+  border-top: solid 1px #DDD;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.CopyRight__text {
+  font-size: .7em;
+  color: #757575;
+  padding-top: 30px;
+  padding-left: 70px;
+}

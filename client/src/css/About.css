@@ -1,0 +1,21 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: auto;
+  padding: 60px 0;
+}
+
+.About__head {
+  text-transform: uppercase;
+  font-size: .7em;
+  color: #333;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.About__text {
+  font-size: .7em;
+  color: #757575;
+  line-height: 1.6;
+}

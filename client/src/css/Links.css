@@ -1,0 +1,20 @@
+.Links {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.Links__head {
+  text-transform: uppercase;
+  font-size: .7em;
+  color: #757575;
+  padding: 0;
+  margin: 0px 0 16px 0;
+}
+
+.Links a {
+  text-decoration: none;
+  font-size: .7em;
+  color: #757575;
+  line-height: 1.7;
+}
