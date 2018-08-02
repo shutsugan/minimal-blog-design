@@ -21,6 +21,7 @@
   color: #757575;
   background: #FFF;
   cursor: pointer;
+  outline: none;
 }
 
 .SubscriptionInput__button:hover {

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import '../css/PostInfo.css';
 
@@ -8,7 +9,7 @@ const PostInfo = props => (
             {props.post.date} | By {props.post.author}
         </span>
         <h2 className="PostInfo__title">{props.post.title}</h2>
-        <a className="PostInfo__more" href={`#${props.post.id}`}>Read More</a>
+        <Link className="PostInfo__more" to={`/post/${props.post.id}`}>Read More</Link>
     </div>
 );
 

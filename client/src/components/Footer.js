@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import About from './About';
+import AboutFooter from './AboutFooter';
 import Links from './Links';
 import CopyRight from './CopyRight';
 
@@ -10,7 +10,7 @@ class Footer extends Component {
     return(
       <footer className="Footer">
         <div className="Footer__container">
-          <About />
+          <AboutFooter />
           <div className="Footer__links">
             <Links head="Links">
               <a href="#">Magazine</a>
