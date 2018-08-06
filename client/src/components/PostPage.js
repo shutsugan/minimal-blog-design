@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PostCard from './PostCard';
 
 import '../css/PostPage.css';
 
@@ -7,15 +8,22 @@ class PostPage extends Component {
       post: {}
   }
 
-  componentDidMount() {
+  componentWillMount() {
     const post_param = this.props.match.params.post;
-    //fetch the post and update the setState
-    //then render the post information.
+
+    fetch(`/api/post/${post_param}`)
+      .then(res => res.json())
+      .then(post => {
+        const data = post[0];
+        this.setState({post: data})
+      });
   }
 
   render() {
     return(
-      <div className="PostPage"></div>
+      <div className="PostPage">
+        <PostCard post={this.state.post} />
+      </div>
     );
   }
 }
