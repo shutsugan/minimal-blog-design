@@ -1,0 +1,14 @@
+.AboutPage {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 690px) {
+  .AboutPage {
+     padding: 0 16px;
+  }
+}

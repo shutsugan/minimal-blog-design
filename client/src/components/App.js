@@ -5,6 +5,7 @@ import Main from './Main';
 import Footer from './Footer';
 import SideNav from './SideNav';
 import Overlay from './Overlay';
+import AboutPage from './AboutPage';
 import PostPage from './PostPage';
 
 import '../css/App.css';
@@ -28,7 +29,8 @@ class App extends Component {
       <div className="App">
         <Head title={this.state.title} onClick={this.onClick} />
         <Switch>
-          <Route exact path="/" component={Main} />
+        <Route exact path="/" component={Main} />
+          <Route exact path="/about" component={AboutPage} />
           <Route exact path="/post/:post" component={PostPage} />
         </Switch>
         <Footer />
